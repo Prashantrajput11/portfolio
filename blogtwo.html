@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="blogtwo.css">
+</head>
+<body>
+    <!-- header -->
+
+    <header class="top-header">
+        <h2 class="logo">PRASHANTCODES</h2>
+        <div class="navbar">
+           
+            <ul class="nav-items">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </div>
+        </header>
+
+    <h2>What is flexbox</h2>
+    <p><strong>Flexbox :</strong> flexbox in CSS is used to make layouts. Effectively and easily. Before flexbox, developers would use floats and before floats, tables were used to build layouts.</p>
+<ol>
+    <li>Flex container: consider this a parent of all the flex items</li>
+    <li>Flex items: these are the items that we basically align using flexbox. They are child of the flex container.</li>
+    <li>Axis: Using flexbox, we can either align our items horizontally or vertically.</li>
+    <ul>
+        <li>If flex-direction is row -- then the alignment will be done horizontally
+        </li>
+        <li>If flex-direction is column- the alignment of flex items be done vertically.</li>
+    </ul>
+</ol>
+
+<p>Now what is flex-direction !, you might be wondering. We will get to it soon. This flexbox vocab was just to warm up you. Let us dive into flexbox now.</p>
+<p><strong>Note : </strong> In flexbox, we have properties using which we can align items and build beautiful layouts. Some of those properties are used on flex container and some are used on flex items.</p>
+<p>Properties for flex container</p>
+   <ol>
+       <li> Display</li>
+       <li>Justify-content</li>
+       <li>Align-items</li>
+       <li>Flex-Direction</li>
+   </ol>
+
+
+
+   <h3>
+    Let us now discuss each property in detail
+    </h3>
+
+   <section class="display-property">
+    <p><strong>display</strong>  this property is used to set the display of our flex-items. Now you must be thinking that why don’t we apply it on flex items itself. No that’s not how flexbox works.To make the flex items align, we set the parent to display: flex.
+        As soon as you apply this property, the child items i.e flex items will be aligned horizontally ( in a row) because that’s the default value.
+        </p>
+        <div class="display-property-image-one">
+            <img src="imgs/fb-one.PNG">
+        </div>
+        <hr>
+        <p><strong>See carefully the images, as soon as we apply display:flex, see the changes that happen to the flex items.</strong></p>
+
+        <div class="display-property-image-two">
+            <img src="./imgs/display-flex.png">
+        </div>
+   </section>
+<hr>
+   <section class="flex-direction">
+
+    <p>Flex-direction - this property is used to set the direction of flex items that are inside the flex container. The default value is row, but we can change it as per the layout we desire.</p>
+   <ol>
+
+    <li>Flex-direction:row  </li>
+    <li>  Flex-direction: column  </li>
+    <li>  Flex-direction:row-reverse  </li>
+    <li> Flex-direction:column-reverse  </li>
+        
+   </ol>
+
+   <p>Row is the value by default</p>
+   <p><strong>flex-direction:coulmn </strong> sets the items to align vertically.</p>
+   <img src="imgs/direction-column.png">
+   
+   <p><strong>flex-direction:row-reverse</strong>, aligns the items (that are aligned horizontally) in a reverse order</p>
+   <img src="imgs/row-reverse.png">
+
+   <p><strong>flex-direction:column-reverse</strong>, aligns the items (that are aligned vertically) in a reverse order</p>
+   <p><strong>Exercise : </strong>Try it by yourslves.</p>
+   <hr>
+   <hr>
+</section>
+
+
+<section class="justify-content">
+
+<p><strong>justify-content : </strong> it layouts the flex items according to the value set.
+    Justify-content: flex-start (default-value)
+    </p>
+
+    <ol>
+        <li>Justify-content:flex-end </li>
+            <li>  Justify-content:center </li>
+                <li> Justify-content: space-around  </li>
+                    <li> Justify-content: space-between  </li>
+            
+    </ol>
+    
+    <p>here we will talk about <strong>space-around</strong> and <strong>space-around</strong>  properties. Rest properties, you may try as a exercise.</p>
+<p>space-around property sets a equal amount of space ON BOTH SIDES the flex-items.</p>
+<img src="imgs/space-around.png">
+
+<p>space-between property sets an equal amount of space between flex items.</p>
+<img src="imgs/space-between.png">
+</section>
+   
+
+
+    <div class="footer">
+                    <h3>Connect Socially</h3>
+                    <ul class="social">
+                        <li><a href="https://twitter.com/hey__prashant">Twitter <i class="icons fab fa-twitter-square"></i></a></li>
+                        <li><a href="#">Linkedin <i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="https://github.com/Prashantrajput11">Github<i class="icons fab fa-github"></i></a></li>
+                    </ul>
+                   
+                </div>
+
+
+</body>
