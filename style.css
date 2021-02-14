@@ -62,7 +62,7 @@ body {
   color: black;
   text-align: center;
   position: relative;
-  margin: 0 auto;
+  margin: 20px auto;
   margin-top: 150px;
   /* border:1px solid red; */
 }
@@ -280,10 +280,23 @@ body {
   margin: 0 auto;
 }
 .technologies {
-  height: 117px;
+  height: 217px;
+  text-align: center;
+  margin: auto;
+  padding:4rem;
+  
+}
+.projects
+{text-align: center;
+  padding:4rem;
+  height: 217px;
+
 }
 .ow {
+  padding:4rem;
+  height: 217px;
   background: #bbdefb;
+  text-align:center;
 }
 
 /* styling blogs page */
